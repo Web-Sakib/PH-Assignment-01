@@ -1,0 +1,102 @@
+/* font added */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* root styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+
+/* header resume styles */
+header .resume {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+  margin: 0px 200px;
+ }
+ 
+ header .resume-name {
+  font-size: 32px;
+   cursor: pointer;
+ }
+ 
+ header .resume-download-btn {
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid;
+  transition: 0.5s;
+ }
+ 
+ header .resume-download-btn:hover {
+   background-color: black;
+   color: white;
+ }
+
+/* header hero section */
+header .hero-section {
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../assets/Hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  border: 1px dashed rgb(209, 207, 207);
+ 
+  
+}
+
+header .hero-container {
+
+
+  height: 800px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px
+}
+
+header .hero-iamge {
+  
+}
+
+header .hero-title {
+  font-size: 55px;
+  text-align: center;
+}
+
+header .hero-description {
+  font-size: 20px;
+  text-align: center;
+}
+
+header .hero-contact-btn {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid;
+    transition: 0.5s;
+}
+
+header .hero-contact-btn:hover {
+  background-color: white;
+  color: black;
+}
