@@ -42,14 +42,23 @@ main .why-description {
 }
 
 /* second why styles */
-main .second-why-sec-container, 
+
+/* main .second-why-sec-container, 
 .third-why-sec-container, 
-.fourth-why-sec-container {
+.fourth-why-sec-container { */
+
+/* commented bcz of hover class */
+
+  main .common-class {
   display: flex;
   justify-content: space-between;
   padding: 50px ;
-  background-image: linear-gradient(to right, rgb(255, 255, 255) , rgba(13, 19, 33, 0.02));
+  background-image: linear-gradient(to right, rgb(255, 255, 255) , transparent );
   border-radius: 15px;
+}
+
+main .common-class:hover {
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
 }
 
 main .why-text-section {
@@ -64,6 +73,8 @@ main .why-text-section {
 main #why-third {
   display: flex;
   justify-content: start;
+  background-image: linear-gradient(to left, rgb(255, 255, 255) , transparent);
+
 }
 
 main .why-img-section { 
