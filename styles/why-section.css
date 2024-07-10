@@ -9,11 +9,9 @@ main .why-section {
   margin-top: 80px;
   width: 1400px;
   background-color: rgba(13, 19, 33, 0.02);
-
   display: flex;
  justify-content: center;
  text-align: center;
-
 }
 
 main .why-section-container{
@@ -43,13 +41,7 @@ main .why-description {
 
 /* second why styles */
 
-/* main .second-why-sec-container, 
-.third-why-sec-container, 
-.fourth-why-sec-container { */
-
-/* commented bcz of hover class */
-
-  main .common-class {
+main .common-class {
   display: flex;
   justify-content: space-between;
   padding: 50px ;
