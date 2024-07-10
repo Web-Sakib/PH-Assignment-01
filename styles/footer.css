@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: center;
+
+  background-color: rgba(13, 19, 33, 0.03);
+  padding: 20px 0px; 
+  
+}
+
+.footer-container {
+  width: 1400px;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  font-size: bold;
+}
+
+.footer-icon-container {
+ display: flex;
+ justify-content: end;
+ gap: 30px;
+}
